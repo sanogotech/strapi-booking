@@ -13,8 +13,7 @@
       "type": "date"
     },
     "room": {
-      "model": "rooms",
-      "via": "booking"
+      "model": "rooms"
     }
   }
 }

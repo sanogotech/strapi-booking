@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/rooms/:id/book",
+      "handler": "rooms.book",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/rooms/:id",
       "handler": "rooms.update",
