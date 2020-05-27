@@ -28,6 +28,10 @@
     },
     "description": {
       "type": "string"
+    },
+    "bookings": {
+      "via": "room",
+      "collection": "booking"
     }
   }
 }
