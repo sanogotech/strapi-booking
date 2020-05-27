@@ -18,6 +18,14 @@
     },
     {
       "method": "GET",
+      "path": "/rooms/avalaible/:date",
+      "handler": "rooms.avalaible",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/rooms/:id",
       "handler": "rooms.findOne",
       "config": {
