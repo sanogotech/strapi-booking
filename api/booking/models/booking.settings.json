@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "Booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "bookingDate": {
+      "type": "date"
+    },
+    "room": {
+      "model": "rooms",
+      "via": "booking"
+    }
+  }
+}
